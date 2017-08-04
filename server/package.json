@@ -1,0 +1,30 @@
+{
+    "name": "digital-flash-app",
+    "version": "1.0.0",
+    "description": "Digital Flashcard Application",
+    "main": "index.js",
+    "engines": {
+        "node": "8.1.1",
+        "npm": "5.0.3"
+    },
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/clintlosee/Digital-Flash-App.git"
+    },
+    "author": "Clint Losee <clint.losee@gmail.com> (http://clintlosee.me)",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/clintlosee/Digital-Flash-App/issues"
+    },
+    "homepage": "https://github.com/clintlosee/Digital-Flash-App#readme",
+    "dependencies": {
+        "express": "^4.15.3",
+        "nodemon": "^1.11.0",
+        "passport": "^0.3.2",
+        "passport-google-oauth20": "^1.0.0"
+    }
+}
